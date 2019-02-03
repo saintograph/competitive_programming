@@ -18,3 +18,28 @@ function reverseInParentheses(inputString) {
 
 // reverseInParentheses('foo(bar)baz(blim)')
 reverseInParentheses('foo(bar(baz))blim') // "foobazrabblim"
+
+
+
+// function reverseInParentheses(inputString) {
+//   const s = inputString.split('').join('');
+//   const s2 = s.replace(/[\W_]+/g," ").split('');
+//   const s3 = s2.join('');
+//   const reverseString = s3.match(/\s[a-z ]+\s/).join('').split('');
+
+//   console.log(s3);
+  // for(let i = 0; i < s2.length; i ++) {
+  //   if(s2[i] === ' ') {
+  //     s2.splice(i, reverseString.length, reverseString)
+  //     break;
+  //   }
+  // }
+  // const flatSingle = s2 => [].concat(...s2);
+  // return flatSingle(s2).join('');
+// }
+
+// reverseInParentheses("foo(bar(baz))blim");
+
+// /a\s?fruit/
+
+// .match(/\(([^)]+)\)/)[1]
