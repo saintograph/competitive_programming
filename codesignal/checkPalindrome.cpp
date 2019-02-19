@@ -18,9 +18,11 @@ bool checkPalindrome(std::string inputString)
   {
     if (inputString[i - 1] != reversed[i])
     {
+      std::cout << "False";
       return false;
     }
   }
+  std::cout << "True";
   return true;
 };
 
