@@ -15,7 +15,7 @@ function incorrectPasscodeAttempts(p, a) {
     }
   };
   return false;
-}
+};
 
 const passcode = '1111';
 const attempts = ["1111", "4444",
@@ -24,3 +24,4 @@ const attempts = ["1111", "4444",
   "7777", "0000",
   "6666", "7285",
   "5555", "1111"];
+  
