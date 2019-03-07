@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 
   Last night you partied a little too hard. Now there's a black and white photo of you that's about to go viral! 
   You can't let this ruin your reputation, so you want to apply the box blur algorithm to the photo to hide its content.
